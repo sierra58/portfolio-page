@@ -1,0 +1,92 @@
+:root {
+    --c1: #4C3A51;
+    --c2: #774360;
+    --c3: #B25068;
+    --c4: #E7AB79;
+    --cwhite: #EEE5E4;
+    --cblack: #1D1B1B;
+    --cgray:  #887E7E;
+  }
+  
+  * {
+    border: 1px solid black;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--c4);
+  }
+  
+  h1 {
+    padding: 0;
+    margin-top: 80px;
+  }
+  
+  menu {
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--c2);
+  }
+  
+  .home-menu-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .social {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    padding-left: 0;
+  }
+  
+  .social li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .social a {
+    text-decoration: none;
+  }
+  
+  .home {
+    height: 100vh;
+  }
+  
+  .about {
+    height: 100vh;
+    background: var(--c3);
+  }
+  
+  .skills {
+    height: 100vh;
+  }
+  
+  .work {
+    height: 100vh;
+    background: var(--c3);
+  }
+  
+  .contact {
+    height: 100vh;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+  
+  }
