@@ -1,2 +1,7 @@
 # portfolio-page
-Portfolio Page | A certification project assigned by freeCodeCamp | [html, css, front-end web development, project]
+
+## Portfolio Page
+- Certification project assigned by freeCodeCamp
+
+## Tags
+html, css, front-end web development, tutorial
